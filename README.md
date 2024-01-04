@@ -1,30 +1,42 @@
-# React + TypeScript + Vite
+# Formulário de Newsletter em React + TypeScript ⚛️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de exemplo que demonstra a criação de um formulário de newsletter usando as tecnologias React, TypeScript. O objetivo é fornecer um ponto de partida simples e estruturado para quem deseja criar formulários de newsletter em seus projetos React. O projeto foi retirado de um [tutorial do Matheus Battisti](https://www.youtube.com/watch?v=fCXek3APADc), do canal Hora de Codar
 
-Currently, two official plugins are available:
+## Pré-requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Certifique-se de ter as seguintes ferramentas instaladas em seu ambiente de desenvolvimento:
 
-## Expanding the ESLint configuration
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Configuração do Projeto
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone o repositório para o seu ambiente local:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Navegue até o diretório do projeto:
+
+   ```bash
+   cd nome-do-repositorio
+
+3. Instale as dependências do projeto:
+
+   ```bash
+   npm install
+   # ou
+   yarn
+
+
+## Executando o projeto
+
+1. Clone o repositório para o seu ambiente local:
+
+   ```bash
+   npm run dev
+    # ou
+    yarn dev
+
+
+2. Abra http://localhost:[porta-dada-pelo-react] no seu navegador para visualizar o formulário de newsletter.
